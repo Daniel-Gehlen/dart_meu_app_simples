@@ -1,0 +1,35 @@
+name: dart_meu_app_simples
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # GetX para gerenciamento de estado
+  get: ^4.6.6
+  
+  # Para chamadas HTTP (REST)
+  dio: ^5.4.0
+  
+  # Para arquitetura limpa
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  
+  # Para verificar conexão
+  connectivity_plus: ^5.0.2
+  
+  # Ícones Cupertino para iOS
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

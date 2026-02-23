@@ -1,0 +1,150 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.bak
+*.pid
+*.lock
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (descomente se NÃO quiser incluir configurações do VS Code)
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+*.mocks.dart
+
+# Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+/android/local.properties
+/android/*.iml
+/android/.idea
+/android/captures/
+/android/gradle/
+/gradle/
+/gradlew
+/gradlew.bat
+/local.properties
+
+# iOS
+/ios/.generated/
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Runner.xcworkspace/xcuserdata/
+/ios/Runner.xcworkspace/project.xcworkspace/xcshareddata/
+/ios/Runner.xcworkspace/project.xcworkspace/xcuserdata/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcodeproj/xcuserdata/
+
+# macOS
+/macos/Flutter/Flutter.podspec
+/macos/Pods/
+/macos/Podfile.lock
+/macos/Runner.xcworkspace/xcuserdata/
+/macos/Runner.xcworkspace/project.xcworkspace/xcshareddata/
+/macos/Runner.xcworkspace/project.xcworkspace/xcuserdata/
+/macos/Runner.xcodeproj/project.xcworkspace/
+/macos/Runner.xcodeproj/xcuserdata/
+
+# Web
+/web/index.html
+/web/icons/
+/web/favicon.png
+/web/manifest.json
+
+# Linux
+/linux/flutter/ephemeral
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugins.cmake
+
+# Windows
+/windows/flutter/ephemeral
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+/windows/runner/cmake_install.cmake
+/windows/runner/CMakeFiles/
+
+# Test related
+/test/.test_history/
+/test/reports/
+/test/screenshots/
+
+# Environment files
+.env
+.env.local
+.env.production
+*.env
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Coverage reports
+/coverage/
+/coverage.json
+/lcov.info
+
+# IDE
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# IDE (configurações locais)
+.idea/
+.vscode/
+*.iml
+
+# Build/Cache (gerados)
+build/
+.dart_tool/
+.pub-cache/
+
