@@ -12,6 +12,8 @@ Este é um aplicativo de exemplo que consome a API pública [JSONPlaceholder](ht
 - ✅ **Integração com API REST** usando Dio
 - ✅ **Tratamento de erros** e verificação de conexão
 
+![](./dart_presentation.gif)
+
 ## 🎯 Funcionalidades
 
 - Listagem de usuários com ID, nome, email e telefone
